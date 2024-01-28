@@ -1,0 +1,50 @@
+@@@@@ FILES LAST UPDATED ON 2024/01/31 @@@@@
+
+=== Please cite: 
+Lo, P. H.-Y., Chen, W.-Y., Huang, C.-J. (2024) 
+Laboratory investigation on the runup of leading-depression N-waves on a uniform slope. 
+Coastal Engineering, XXX(X), XXXX. 
+doi:XXXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx		
+										
+=== Contact information: 
+Peter Lo <peterhylo@ntu.edu.tw>												
+
+=== Explanation:
+1) The constant water depth is d=0.23 m.
+2) The slope inclination in this study is 1:10.
+3) Two slope locations are available: "S1350" and "S0700":
+
+     "S1350"
+     wavemaker is located at x=0 m
+     1:10 slope begins at x=13.5 m
+     WG01 is located at x=1.31 m
+     WG02 is located at x=7.01 m
+     WG03 is located at x=13.5 m
+     WG04 is located at x=14.75 m
+
+     "S0700"
+     wavemaker is located at x=0 m
+     1:10 slope begins at x=7 m
+     WG01 is located at x=1.31 m
+     WG02 is located at x=4 m
+     WG03 is located at x=7.01 m
+     WG04 is located at x=8.26 m
+
+4) The accoustic wave gauges are Banner S18U. The sampling rate is 1000 Hz.
+Lowpass filter with 10 Hz cutoff was performed. Obviously invalid entries are flagged as NaN.
+The manufacturer-specified accuracy is 1 mm, so there's no need to dwell on sub-millimeter differences in the recordings.
+5) In the .mat files, t=0 is defined as the instant the wave crest passes WG03.
+
+=== Caution:
+1) For solitary waves, this study only examines data from WG02 and WG03. 
+Data from WG01 and WG04 are provided only for reference. 
+Their quality has not been checked or guaranteed.
+
+2) For LDNs, this study only examines data from WG03.
+Data from WG01, WG02, and WG04 are provided only for reference.
+Their quality has not been checked or guaranteed.
+
+3) When the waves are too steep or break, the WG measurements become spiky and the data become unusable. 
+This occurred often at WG04 and for larger-amplitude waves.
+If you are interested in performing further processing in these circumstances to improve data quality, 
+please contact the lead author Peter Lo for the unfiltered raw data.
