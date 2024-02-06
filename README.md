@@ -8,8 +8,8 @@ Contains two types of data:
 === Please cite: 
 Lo, P. H.-Y., Chen, W.-Y., Huang, C.-J. (2024) 
 Laboratory investigation on the runup of leading-depression N-waves on a uniform slope. 
-Coastal Engineering, XXX(X), XXXX. 
-doi:XXXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx		
+Coastal Engineering, 189, 104479. 
+doi:10.1016/j.coastaleng.2024.104479		
 										
 === Contact information: 
 Peter Lo <peterhylo@ntu.edu.tw>		
